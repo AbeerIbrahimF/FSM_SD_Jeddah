@@ -1,0 +1,45 @@
+SYNTHETIC FLOOD SUSCEPTIBILITY DATA - METADATA
+================================================================================
+
+Generation Date: 2025-11-06 12:19:26
+
+DATASET INFORMATION:
+--------------------------------------------------------------------------------
+Original Data Size: 280 samples
+Training Set: 238 samples (85%)
+Test Set: 42 samples (15%)
+
+SYNTHETIC GENERATION METHODS:
+--------------------------------------------------------------------------------
+• CTGAN (Conditional Tabular GAN)
+• TVAE (Tabular Variational Autoencoder)
+• GaussianCopula
+
+SAMPLE SIZES GENERATED:
+--------------------------------------------------------------------------------
+• 1,000 samples per method
+• 5,000 samples per method
+• 10,000 samples per method
+
+EVALUATION METRICS:
+--------------------------------------------------------------------------------
+• Statistical Similarity (KS Test, Wasserstein Distance, T-tests)
+• Correlation Preservation (MACE, Frobenius Norm)
+• Geometric Similarity (PCA)
+• Categorical Distribution Tests
+• TSTR (Train on Synthetic, Test on Real)
+• Discriminator Test (Real vs Synthetic Detection)
+
+CONSTRAINTS APPLIED:
+--------------------------------------------------------------------------------
+• Hydrology domain rules
+• TWI calculation constraints
+• Physical relationship preservation
+
+FILE ORGANIZATION:
+--------------------------------------------------------------------------------
+• synthetic_datasets/ - Generated synthetic data CSV files
+• evaluation_plots/ - All visualization plots (PNG files)
+• evaluation_results/ - Evaluation metrics and reports
+• reports/ - Executive summaries and analysis reports
+• metadata/ - Metadata and configuration files

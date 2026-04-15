@@ -1,0 +1,31 @@
+{
+  "CTGAN_1000": [],
+  "CTGAN_5000": [],
+  "CTGAN_10000": [],
+  "GaussianCopula_1000": [
+    "T-test Significant Differences"
+  ],
+  "GaussianCopula_5000": [
+    "Mean Cohen's d",
+    "PCA Covariance Distance"
+  ],
+  "GaussianCopula_10000": [
+    "MACE",
+    "Frobenius Norm",
+    "Correlation of Correlations",
+    "PCA Centroid Distance"
+  ],
+  "TVAE_1000": [],
+  "TVAE_5000": [
+    "TSTR RF AUC",
+    "TSTR XGB AUC",
+    "TSTR RF F1",
+    "Quality Score",
+    "Discriminator AUC"
+  ],
+  "TVAE_10000": [
+    "KS Statistic",
+    "Wasserstein Distance",
+    "TSTR XGB F1"
+  ]
+}

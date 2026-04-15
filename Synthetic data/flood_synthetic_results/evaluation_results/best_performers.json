@@ -1,0 +1,46 @@
+{
+  "KS_Significant": {
+    "dataset": "GaussianCopula_5000",
+    "value": "4"
+  },
+  "Mean_KS_Stat": {
+    "dataset": "TVAE_10000",
+    "value": 0.11563550420168067
+  },
+  "Mean_Wasserstein": {
+    "dataset": "TVAE_10000",
+    "value": 62.272590938233265
+  },
+  "TTest_Significant": {
+    "dataset": "GaussianCopula_1000",
+    "value": "1"
+  },
+  "TTest_Practical": {
+    "dataset": "GaussianCopula_1000",
+    "value": "0"
+  },
+  "Mean_Cohens_D": {
+    "dataset": "GaussianCopula_5000",
+    "value": 0.051356354095757756
+  },
+  "MACE": {
+    "dataset": "GaussianCopula_10000",
+    "value": 0.054828810114971135
+  },
+  "Frobenius_Norm": {
+    "dataset": "GaussianCopula_10000",
+    "value": 0.9065464375334182
+  },
+  "Corr_of_Corr": {
+    "dataset": "GaussianCopula_10000",
+    "value": 0.9701799717251406
+  },
+  "PCA_Centroid_Dist": {
+    "dataset": "GaussianCopula_10000",
+    "value": 0.09746151426115712
+  },
+  "PCA_Cov_Dist": {
+    "dataset": "GaussianCopula_5000",
+    "value": 0.9699798602927241
+  }
+}

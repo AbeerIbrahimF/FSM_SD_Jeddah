@@ -1,0 +1,2792 @@
+{
+  "CTGAN_1000": {
+    "dataset_info": {
+      "name": "CTGAN_1000",
+      "n_rows": 1000,
+      "n_features": 16
+    },
+    "statistical_similarity": {
+      "ks_results": {
+        "aspect": {
+          "statistic": 0.2063781512605042,
+          "p_value": 1.1774844436279853e-07,
+          "significant": "True"
+        },
+        "dem": {
+          "statistic": 0.1407983193277311,
+          "p_value": 0.0008619147029433304,
+          "significant": "True"
+        },
+        "distance_from_river": {
+          "statistic": 0.1270420168067227,
+          "p_value": 0.003612921736756271,
+          "significant": "True"
+        },
+        "flow_accumulation": {
+          "statistic": 0.36217647058823527,
+          "p_value": 5.296682760733172e-23,
+          "significant": "True"
+        },
+        "plan_curvature": {
+          "statistic": 0.23631932773109243,
+          "p_value": 6.353168052917548e-10,
+          "significant": "True"
+        },
+        "profile_curvature": {
+          "statistic": 0.301109243697479,
+          "p_value": 6.342572024570665e-16,
+          "significant": "True"
+        },
+        "rainfall": {
+          "statistic": 0.2725378151260504,
+          "p_value": 4.346119817267915e-13,
+          "significant": "True"
+        },
+        "slope": {
+          "statistic": 0.07476470588235294,
+          "p_value": 0.21963281645899907,
+          "significant": "False"
+        },
+        "spi": {
+          "statistic": 0.5905210084033613,
+          "p_value": 2.40699515782983e-63,
+          "significant": "True"
+        },
+        "tpi": {
+          "statistic": 0.4147394957983193,
+          "p_value": 2.841933646458729e-30,
+          "significant": "True"
+        },
+        "tri": {
+          "statistic": 0.22687394957983192,
+          "p_value": 3.569418404929139e-09,
+          "significant": "True"
+        },
+        "twi": {
+          "statistic": 0.05638655462184874,
+          "p_value": 0.5512918492007536,
+          "significant": "False"
+        }
+      },
+      "wasserstein_results": {
+        "aspect": 48.123224148774796,
+        "dem": 13.766312575045372,
+        "distance_from_river": 121.37922727852771,
+        "flow_accumulation": 274.79254621848804,
+        "plan_curvature": 0.14067026604537813,
+        "profile_curvature": 0.15460172763613442,
+        "rainfall": 0.8550682172504203,
+        "slope": 1.0263983952000002,
+        "spi": 1619.15810983762,
+        "tpi": 5.841436800902521,
+        "tri": 0.06892790372436973,
+        "twi": 0.2251289130747899
+      },
+      "summary": {
+        "n_significant": 10,
+        "mean_ks_stat": 0.25080392156862746,
+        "mean_w_dist": 173.79430435685745
+      }
+    },
+    "ttest": {
+      "aspect": {
+        "statistic": 6.055912605541411,
+        "p_value": 3.5539792930930737e-09,
+        "mean_real": 189.6021734352941,
+        "mean_synth": 141.56203503,
+        "cohens_d": 0.4400247976932173,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "dem": {
+        "statistic": 1.4031386028270445,
+        "p_value": 0.16153711769581314,
+        "mean_real": 82.9117540235294,
+        "mean_synth": 74.58330841120001,
+        "cohens_d": 0.11202135202144455,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "distance_from_river": {
+        "statistic": 2.5705361478251234,
+        "p_value": 0.010574474611309366,
+        "mean_real": 894.6984914554621,
+        "mean_synth": 774.4069982782,
+        "cohens_d": 0.19246746989613264,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      },
+      "flow_accumulation": {
+        "statistic": -1.344547634416988,
+        "p_value": 0.17955852429957259,
+        "mean_real": 223.19747899159663,
+        "mean_synth": 479.679,
+        "cohens_d": -0.09116926334431198,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "plan_curvature": {
+        "statistic": 6.357310997644137,
+        "p_value": 4.845885720024767e-10,
+        "mean_real": 0.019509531512605045,
+        "mean_synth": -0.1157514912,
+        "cohens_d": 0.37972146241645377,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "profile_curvature": {
+        "statistic": 7.704369161685391,
+        "p_value": 9.771457208680164e-14,
+        "mean_real": -0.010147517226890754,
+        "mean_synth": -0.1612396929,
+        "cohens_d": 0.49754028873992356,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "rainfall": {
+        "statistic": -4.863000543523522,
+        "p_value": 1.63465013903706e-06,
+        "mean_real": 50.18163562436975,
+        "mean_synth": 50.9233342232,
+        "cohens_d": -0.310670532090312,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "slope": {
+        "statistic": -1.8426349488529898,
+        "p_value": 0.06607251918253843,
+        "mean_real": 5.297568401680671,
+        "mean_synth": 6.1521651014,
+        "cohens_d": -0.1165199642885093,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "spi": {
+        "statistic": -4.785513891228558,
+        "p_value": 1.987946953314668e-06,
+        "mean_real": 328.73023010588236,
+        "mean_synth": 1947.8883399434997,
+        "cohens_d": -0.21754697527878364,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "tpi": {
+        "statistic": 6.269164785297967,
+        "p_value": 9.773167249948569e-10,
+        "mean_real": 2.5070209768907565,
+        "mean_synth": -3.2875247271999997,
+        "cohens_d": 0.4278494586170034,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "tri": {
+        "statistic": 7.401492335138362,
+        "p_value": 8.995456325208604e-13,
+        "mean_real": 0.3116038109243698,
+        "mean_synth": 0.24267590719999999,
+        "cohens_d": 0.5158427898141043,
+        "practical_significance": "medium",
+        "statistically_significant": "True"
+      },
+      "twi": {
+        "statistic": -0.5553651820235855,
+        "p_value": 0.5789725729054912,
+        "mean_real": 7.803417276470589,
+        "mean_synth": 7.906735181099999,
+        "cohens_d": -0.03827419838719702,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      }
+    },
+    "correlation": {
+      "mace": 0.19925894501045005,
+      "frobenius_norm": 3.376615154148054,
+      "correlation_of_correlations": 0.4268352694591831,
+      "max_error": 0.9879890929049223,
+      "max_error_pair": [
+        "flow_accumulation",
+        "spi"
+      ]
+    },
+    "pca": {
+      "centroid_distance": 0.6449191927154369,
+      "covariance_distance": 2.3412127454396914,
+      "explained_variance": [
+        0.3300075549957634,
+        0.17367097302381612
+      ]
+    },
+    "categorical": {
+      "land_use": {
+        "chi2_statistic": 91.00047161072308,
+        "chi2_p_value": 8.071491981560974e-19,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.2925602182760161,
+        "total_variation_distance": 0.29534453781512604,
+        "category_coverage": 1.0,
+        "n_categories_original": 5,
+        "n_categories_synthetic": 5,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.025210084033613446,
+          "16": 0.12605042016806722,
+          "32": 0.1134453781512605,
+          "55": 0.3277310924369748,
+          "68": 0.40756302521008403
+        },
+        "synthetic_distribution": {
+          "1": 0.296,
+          "16": 0.107,
+          "32": 0.138,
+          "55": 0.236,
+          "68": 0.223
+        }
+      },
+      "soil": {
+        "chi2_statistic": 7.082152784795965,
+        "chi2_p_value": 0.007785542124237399,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.07637845734274538,
+        "total_variation_distance": 0.06816806722689074,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "2": 0.07983193277310924,
+          "3": 0.9201680672268907
+        },
+        "synthetic_distribution": {
+          "2": 0.148,
+          "3": 0.852
+        }
+      },
+      "lithology": {
+        "chi2_statistic": 44.7059060871067,
+        "chi2_p_value": 1.068479170735951e-09,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.218430988754368,
+        "total_variation_distance": 0.1833613445378151,
+        "category_coverage": 1.0,
+        "n_categories_original": 4,
+        "n_categories_synthetic": 4,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.012605042016806723,
+          "2": 0.08403361344537816,
+          "3": 0.6092436974789915,
+          "5": 0.29411764705882354
+        },
+        "synthetic_distribution": {
+          "1": 0.175,
+          "2": 0.105,
+          "3": 0.491,
+          "5": 0.229
+        }
+      },
+      "f_nf": {
+        "chi2_statistic": 0.001970668044856525,
+        "chi2_p_value": 0.9645917734172517,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.002971067492379472,
+        "total_variation_distance": 0.004201680672268893,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "0": 0.5042016806722689,
+          "1": 0.4957983193277311
+        },
+        "synthetic_distribution": {
+          "0": 0.5,
+          "1": 0.5
+        }
+      }
+    }
+  },
+  "CTGAN_5000": {
+    "dataset_info": {
+      "name": "CTGAN_5000",
+      "n_rows": 5000,
+      "n_features": 16
+    },
+    "statistical_similarity": {
+      "ks_results": {
+        "aspect": {
+          "statistic": 0.21819159663865545,
+          "p_value": 5.683765799490242e-10,
+          "significant": "True"
+        },
+        "dem": {
+          "statistic": 0.1397983193277311,
+          "p_value": 0.0002459755930388221,
+          "significant": "True"
+        },
+        "distance_from_river": {
+          "statistic": 0.12184201680672269,
+          "p_value": 0.0021281368937167765,
+          "significant": "True"
+        },
+        "flow_accumulation": {
+          "statistic": 0.3649764705882353,
+          "p_value": 1.3352387653551872e-27,
+          "significant": "True"
+        },
+        "plan_curvature": {
+          "statistic": 0.24691260504201681,
+          "p_value": 1.0997095238342732e-12,
+          "significant": "True"
+        },
+        "profile_curvature": {
+          "statistic": 0.321909243697479,
+          "p_value": 1.9506664858929468e-21,
+          "significant": "True"
+        },
+        "rainfall": {
+          "statistic": 0.2593142857142857,
+          "p_value": 5.804922608861978e-14,
+          "significant": "True"
+        },
+        "slope": {
+          "statistic": 0.07156470588235295,
+          "p_value": 0.1854017825449847,
+          "significant": "False"
+        },
+        "spi": {
+          "statistic": 0.5633327731092437,
+          "p_value": 3.0332586981581615e-68,
+          "significant": "True"
+        },
+        "tpi": {
+          "statistic": 0.4127042016806723,
+          "p_value": 1.8288185315616603e-35,
+          "significant": "True"
+        },
+        "tri": {
+          "statistic": 0.23467394957983193,
+          "p_value": 1.7367793067454462e-11,
+          "significant": "True"
+        },
+        "twi": {
+          "statistic": 0.0713983193277311,
+          "p_value": 0.1874771269985809,
+          "significant": "False"
+        }
+      },
+      "wasserstein_results": {
+        "aspect": 53.1609493038348,
+        "dem": 15.59344004872067,
+        "distance_from_river": 110.59272748143374,
+        "flow_accumulation": 315.729394957984,
+        "plan_curvature": 0.15683032950588238,
+        "profile_curvature": 0.16490408856689076,
+        "rainfall": 0.8397468873280673,
+        "slope": 0.9401545072527732,
+        "spi": 1737.1486206307186,
+        "tpi": 5.790209699221343,
+        "tri": 0.06946440878436974,
+        "twi": 0.17244123279159668
+      },
+      "summary": {
+        "n_significant": 10,
+        "mean_ks_stat": 0.25221820728291316,
+        "mean_w_dist": 186.69657363134522
+      }
+    },
+    "ttest": {
+      "aspect": {
+        "statistic": 7.2684576405566705,
+        "p_value": 4.299188674457386e-12,
+        "mean_real": 189.6021734352941,
+        "mean_synth": 136.50834112726,
+        "cohens_d": 0.4951244676937655,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "dem": {
+        "statistic": 1.765451800629052,
+        "p_value": 0.07869480950658882,
+        "mean_real": 82.9117540235294,
+        "mean_synth": 73.0690811132,
+        "cohens_d": 0.13843875234636316,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "distance_from_river": {
+        "statistic": 2.528662062967091,
+        "p_value": 0.01204983941328339,
+        "mean_real": 894.6984914554621,
+        "mean_synth": 784.98893311246,
+        "cohens_d": 0.18009622080732937,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      },
+      "flow_accumulation": {
+        "statistic": -1.8117828104960834,
+        "p_value": 0.07111076888909815,
+        "mean_real": 223.19747899159663,
+        "mean_synth": 538.9072,
+        "cohens_d": -0.09654271663033474,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "plan_curvature": {
+        "statistic": 8.30720910635943,
+        "p_value": 4.23528526587476e-15,
+        "mean_real": 0.019509531512605045,
+        "mean_synth": -0.13387698192,
+        "cohens_d": 0.4177427140678543,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "profile_curvature": {
+        "statistic": 9.395709125945174,
+        "p_value": 2.606378486625053e-18,
+        "mean_real": -0.010147517226890754,
+        "mean_synth": -0.17420287346,
+        "cohens_d": 0.5471481815152206,
+        "practical_significance": "medium",
+        "statistically_significant": "True"
+      },
+      "rainfall": {
+        "statistic": -5.173357347469467,
+        "p_value": 4.46434945578836e-07,
+        "mean_real": 50.18163562436975,
+        "mean_synth": 50.883747379,
+        "cohens_d": -0.2842842277203622,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "slope": {
+        "statistic": -1.7302201055911144,
+        "p_value": 0.08472281907823444,
+        "mean_real": 5.297568401680671,
+        "mean_synth": 6.00856301116,
+        "cohens_d": -0.0948142906635742,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "spi": {
+        "statistic": -6.943631969097192,
+        "p_value": 1.604880902166924e-11,
+        "mean_real": 328.73023010588236,
+        "mean_synth": 2065.8788507366003,
+        "cohens_d": -0.21242307461611287,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "tpi": {
+        "statistic": 6.871561738147222,
+        "p_value": 4.5634076981408705e-11,
+        "mean_real": 2.5070209768907565,
+        "mean_synth": -3.2483771701,
+        "cohens_d": 0.42676971742147435,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "tri": {
+        "statistic": 8.169327938543251,
+        "p_value": 1.2942419939208638e-14,
+        "mean_real": 0.3116038109243698,
+        "mean_synth": 0.24213940214,
+        "cohens_d": 0.5056637594672657,
+        "practical_significance": "medium",
+        "statistically_significant": "True"
+      },
+      "twi": {
+        "statistic": -0.13407936194377099,
+        "p_value": 0.8934427570173071,
+        "mean_real": 7.803417276470589,
+        "mean_synth": 7.8260610666399995,
+        "cohens_d": -0.008584743968753432,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      }
+    },
+    "correlation": {
+      "mace": 0.20058448061665812,
+      "frobenius_norm": 3.3996545630721466,
+      "correlation_of_correlations": 0.409087369490171,
+      "max_error": 0.9479648747655693,
+      "max_error_pair": [
+        "flow_accumulation",
+        "spi"
+      ]
+    },
+    "pca": {
+      "centroid_distance": 0.6593849514734342,
+      "covariance_distance": 2.589998407527319,
+      "explained_variance": [
+        0.3300075549957634,
+        0.17367097302381612
+      ]
+    },
+    "categorical": {
+      "land_use": {
+        "chi2_statistic": 96.40380113570367,
+        "chi2_p_value": 5.730103218184269e-20,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.2822143469640508,
+        "total_variation_distance": 0.271944537815126,
+        "category_coverage": 1.0,
+        "n_categories_original": 5,
+        "n_categories_synthetic": 5,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.025210084033613446,
+          "16": 0.12605042016806722,
+          "32": 0.1134453781512605,
+          "55": 0.3277310924369748,
+          "68": 0.40756302521008403
+        },
+        "synthetic_distribution": {
+          "1": 0.2802,
+          "16": 0.1188,
+          "32": 0.1304,
+          "55": 0.252,
+          "68": 0.2186
+        }
+      },
+      "soil": {
+        "chi2_statistic": 11.525049791174943,
+        "chi2_p_value": 0.0006866461184312422,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.0925343925429498,
+        "total_variation_distance": 0.08496806722689071,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "2": 0.07983193277310924,
+          "3": 0.9201680672268907
+        },
+        "synthetic_distribution": {
+          "2": 0.1648,
+          "3": 0.8352
+        }
+      },
+      "lithology": {
+        "chi2_statistic": 45.61136723303199,
+        "chi2_p_value": 6.859945114839077e-10,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.2118084923205171,
+        "total_variation_distance": 0.1819613445378151,
+        "category_coverage": 1.0,
+        "n_categories_original": 4,
+        "n_categories_synthetic": 4,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.012605042016806723,
+          "2": 0.08403361344537816,
+          "3": 0.6092436974789915,
+          "5": 0.29411764705882354
+        },
+        "synthetic_distribution": {
+          "1": 0.1638,
+          "2": 0.1148,
+          "3": 0.4744,
+          "5": 0.247
+        }
+      },
+      "f_nf": {
+        "chi2_statistic": 0.003638030954472596,
+        "chi2_p_value": 0.9519038857150952,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.002971067492379472,
+        "total_variation_distance": 0.004201680672268893,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "0": 0.5042016806722689,
+          "1": 0.4957983193277311
+        },
+        "synthetic_distribution": {
+          "0": 0.5,
+          "1": 0.5
+        }
+      }
+    }
+  },
+  "CTGAN_10000": {
+    "dataset_info": {
+      "name": "CTGAN_10000",
+      "n_rows": 10000,
+      "n_features": 16
+    },
+    "statistical_similarity": {
+      "ks_results": {
+        "aspect": {
+          "statistic": 0.2233781512605042,
+          "p_value": 1.1373697285205805e-10,
+          "significant": "True"
+        },
+        "dem": {
+          "statistic": 0.1364983193277311,
+          "p_value": 0.00030660503634019496,
+          "significant": "True"
+        },
+        "distance_from_river": {
+          "statistic": 0.11914201680672269,
+          "p_value": 0.0024735587075095824,
+          "significant": "True"
+        },
+        "flow_accumulation": {
+          "statistic": 0.3638764705882353,
+          "p_value": 4.54154986725353e-28,
+          "significant": "True"
+        },
+        "plan_curvature": {
+          "statistic": 0.2568126050420168,
+          "p_value": 5.2696253033232903e-14,
+          "significant": "True"
+        },
+        "profile_curvature": {
+          "statistic": 0.314609243697479,
+          "p_value": 6.087438259351348e-21,
+          "significant": "True"
+        },
+        "rainfall": {
+          "statistic": 0.2626193277310924,
+          "p_value": 1.2389193004906374e-14,
+          "significant": "True"
+        },
+        "slope": {
+          "statistic": 0.06786470588235294,
+          "p_value": 0.22403281424725052,
+          "significant": "False"
+        },
+        "spi": {
+          "statistic": 0.5607327731092437,
+          "p_value": 2.902089174261852e-69,
+          "significant": "True"
+        },
+        "tpi": {
+          "statistic": 0.41643949579831935,
+          "p_value": 5.4163461557601915e-37,
+          "significant": "True"
+        },
+        "tri": {
+          "statistic": 0.24687394957983194,
+          "p_value": 5.806799779265381e-13,
+          "significant": "True"
+        },
+        "twi": {
+          "statistic": 0.058798319327731094,
+          "p_value": 0.3824693638588518,
+          "significant": "False"
+        }
+      },
+      "wasserstein_results": {
+        "aspect": 54.0287520682343,
+        "dem": 15.13415603996092,
+        "distance_from_river": 108.98061924387513,
+        "flow_accumulation": 341.84629495798384,
+        "plan_curvature": 0.16173436507798322,
+        "profile_curvature": 0.1600624902379832,
+        "rainfall": 0.8427707925515129,
+        "slope": 1.0098733938655462,
+        "spi": 2071.6212676067685,
+        "tpi": 5.69798771482479,
+        "tri": 0.07106683875436978,
+        "twi": 0.1936187252569748
+      },
+      "summary": {
+        "n_significant": 10,
+        "mean_ks_stat": 0.2523037815126051,
+        "mean_w_dist": 216.64568368644927
+      }
+    },
+    "ttest": {
+      "aspect": {
+        "statistic": 7.469551577542994,
+        "p_value": 1.3740858167193607e-12,
+        "mean_real": 189.6021734352941,
+        "mean_synth": 135.62843918905997,
+        "cohens_d": 0.50345631920336,
+        "practical_significance": "medium",
+        "statistically_significant": "True"
+      },
+      "dem": {
+        "statistic": 1.5427127894719435,
+        "p_value": 0.12419077590198113,
+        "mean_real": 82.9117540235294,
+        "mean_synth": 74.37803232540999,
+        "cohens_d": 0.1192147418304385,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "distance_from_river": {
+        "statistic": 2.5161023186665536,
+        "p_value": 0.012501387904920834,
+        "mean_real": 894.6984914554621,
+        "mean_synth": 786.5941076667201,
+        "cohens_d": 0.17676611092712602,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      },
+      "flow_accumulation": {
+        "statistic": -1.995296769097519,
+        "p_value": 0.047066478435907146,
+        "mean_real": 223.19747899159663,
+        "mean_synth": 565.0313,
+        "cohens_d": -0.10074315356940969,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      },
+      "plan_curvature": {
+        "statistic": 8.793546925598028,
+        "p_value": 2.094997210988599e-16,
+        "mean_real": 0.019509531512605045,
+        "mean_synth": -0.13953130368,
+        "cohens_d": 0.4317709675790314,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "profile_curvature": {
+        "statistic": 9.222058697002128,
+        "p_value": 1.1917168514919055e-17,
+        "mean_real": -0.010147517226890754,
+        "mean_synth": -0.16882531122,
+        "cohens_d": 0.5200481832708842,
+        "practical_significance": "medium",
+        "statistically_significant": "True"
+      },
+      "rainfall": {
+        "statistic": -5.26004754371402,
+        "p_value": 3.055569612849749e-07,
+        "mean_real": 50.18163562436975,
+        "mean_synth": 50.88353379817,
+        "cohens_d": -0.28165875647418015,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "slope": {
+        "statistic": -2.00669446811654,
+        "p_value": 0.045838798788200893,
+        "mean_real": 5.297568401680671,
+        "mean_synth": 6.108324913460001,
+        "cohens_d": -0.1068960968492331,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      },
+      "spi": {
+        "statistic": -8.685851159597958,
+        "p_value": 1.898716782709157e-16,
+        "mean_real": 328.73023010588236,
+        "mean_synth": 2400.35149771265,
+        "cohens_d": -0.2311534767541231,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "tpi": {
+        "statistic": 6.796398822604509,
+        "p_value": 7.777482334052452e-11,
+        "mean_real": 2.5070209768907565,
+        "mean_synth": -3.1137216370500003,
+        "cohens_d": 0.4081739833855281,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "tri": {
+        "statistic": 8.477740442582673,
+        "p_value": 2.0345586012657276e-15,
+        "mean_real": 0.3116038109243698,
+        "mean_synth": 0.24053697217,
+        "cohens_d": 0.5351142405573089,
+        "practical_significance": "medium",
+        "statistically_significant": "True"
+      },
+      "twi": {
+        "statistic": -0.4185872391018423,
+        "p_value": 0.6758770806194022,
+        "mean_real": 7.803417276470589,
+        "mean_synth": 7.87328984754,
+        "cohens_d": -0.02574987313009539,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      }
+    },
+    "correlation": {
+      "mace": 0.2013802449378612,
+      "frobenius_norm": 3.4034180554041558,
+      "correlation_of_correlations": 0.4060032723753468,
+      "max_error": 0.9507117813806297,
+      "max_error_pair": [
+        "flow_accumulation",
+        "spi"
+      ]
+    },
+    "pca": {
+      "centroid_distance": 0.6999789471105035,
+      "covariance_distance": 2.828390302867688,
+      "explained_variance": [
+        0.3300075549957634,
+        0.17367097302381612
+      ]
+    },
+    "categorical": {
+      "land_use": {
+        "chi2_statistic": 103.02471482118645,
+        "chi2_p_value": 2.2321786093582e-21,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.29165319208478374,
+        "total_variation_distance": 0.286944537815126,
+        "category_coverage": 1.0,
+        "n_categories_original": 5,
+        "n_categories_synthetic": 5,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.025210084033613446,
+          "16": 0.12605042016806722,
+          "32": 0.1134453781512605,
+          "55": 0.3277310924369748,
+          "68": 0.40756302521008403
+        },
+        "synthetic_distribution": {
+          "1": 0.2963,
+          "16": 0.1086,
+          "32": 0.1293,
+          "55": 0.2465,
+          "68": 0.2193
+        }
+      },
+      "soil": {
+        "chi2_statistic": 10.236326203724072,
+        "chi2_p_value": 0.0013770157165658866,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.08627825572628699,
+        "total_variation_distance": 0.07836806722689074,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "2": 0.07983193277310924,
+          "3": 0.9201680672268907
+        },
+        "synthetic_distribution": {
+          "2": 0.1582,
+          "3": 0.8418
+        }
+      },
+      "lithology": {
+        "chi2_statistic": 47.37405048673832,
+        "chi2_p_value": 2.893738256015523e-10,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.2159792582537455,
+        "total_variation_distance": 0.18516134453781508,
+        "category_coverage": 1.0,
+        "n_categories_original": 4,
+        "n_categories_synthetic": 4,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.012605042016806723,
+          "2": 0.08403361344537816,
+          "3": 0.6092436974789915,
+          "5": 0.29411764705882354
+        },
+        "synthetic_distribution": {
+          "1": 0.1698,
+          "2": 0.112,
+          "3": 0.4766,
+          "5": 0.2416
+        }
+      },
+      "f_nf": {
+        "chi2_statistic": 0.0039109795126698235,
+        "chi2_p_value": 0.950134541155516,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.002971067492379472,
+        "total_variation_distance": 0.004201680672268893,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "0": 0.5042016806722689,
+          "1": 0.4957983193277311
+        },
+        "synthetic_distribution": {
+          "0": 0.5,
+          "1": 0.5
+        }
+      }
+    }
+  },
+  "TVAE_1000": {
+    "dataset_info": {
+      "name": "TVAE_1000",
+      "n_rows": 1000,
+      "n_features": 16
+    },
+    "statistical_similarity": {
+      "ks_results": {
+        "aspect": {
+          "statistic": 0.1732436974789916,
+          "p_value": 1.614865189248001e-05,
+          "significant": "True"
+        },
+        "dem": {
+          "statistic": 0.0925546218487395,
+          "p_value": 0.06896329029098489,
+          "significant": "False"
+        },
+        "distance_from_river": {
+          "statistic": 0.17251260504201682,
+          "p_value": 1.7756958287588117e-05,
+          "significant": "True"
+        },
+        "flow_accumulation": {
+          "statistic": 0.1846638655462185,
+          "p_value": 3.2584817808827936e-06,
+          "significant": "True"
+        },
+        "plan_curvature": {
+          "statistic": 0.09177310924369748,
+          "p_value": 0.0729443236295579,
+          "significant": "False"
+        },
+        "profile_curvature": {
+          "statistic": 0.06084873949579832,
+          "p_value": 0.45431674001703454,
+          "significant": "False"
+        },
+        "rainfall": {
+          "statistic": 0.12012605042016807,
+          "p_value": 0.0070297087246704686,
+          "significant": "True"
+        },
+        "slope": {
+          "statistic": 0.08730252100840336,
+          "p_value": 0.09964805938425123,
+          "significant": "False"
+        },
+        "spi": {
+          "statistic": 0.15826050420168067,
+          "p_value": 0.00011207758739745471,
+          "significant": "True"
+        },
+        "tpi": {
+          "statistic": 0.06264705882352942,
+          "p_value": 0.41769570408891277,
+          "significant": "False"
+        },
+        "tri": {
+          "statistic": 0.09349579831932774,
+          "p_value": 0.06442089688063832,
+          "significant": "False"
+        },
+        "twi": {
+          "statistic": 0.10966386554621849,
+          "p_value": 0.017920627068335103,
+          "significant": "True"
+        }
+      },
+      "wasserstein_results": {
+        "aspect": 27.923567489437815,
+        "dem": 11.72282664707815,
+        "distance_from_river": 194.38426948088824,
+        "flow_accumulation": 218.85242016806652,
+        "plan_curvature": 0.04910432106302521,
+        "profile_curvature": 0.037463605346218475,
+        "rainfall": 0.40306506120084035,
+        "slope": 0.4426576748436975,
+        "spi": 320.61682542611595,
+        "tpi": 1.8152231687252092,
+        "tri": 0.0176779489907563,
+        "twi": 0.4354320849739495
+      },
+      "summary": {
+        "n_significant": 6,
+        "mean_ks_stat": 0.1172577030812325,
+        "mean_w_dist": 64.72504442306087
+      }
+    },
+    "ttest": {
+      "aspect": {
+        "statistic": -3.2924742789085295,
+        "p_value": 0.0010971305472653704,
+        "mean_real": 189.6021734352941,
+        "mean_synth": 215.4336858555,
+        "cohens_d": -0.24847106487060835,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "dem": {
+        "statistic": -1.0794264963123885,
+        "p_value": 0.28115795065892707,
+        "mean_real": 82.9117540235294,
+        "mean_synth": 89.41889542050001,
+        "cohens_d": -0.08118503587679393,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "distance_from_river": {
+        "statistic": 4.188882008005708,
+        "p_value": 3.649362849025771e-05,
+        "mean_real": 894.6984914554621,
+        "mean_synth": 703.4431065611,
+        "cohens_d": 0.34599618012526084,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "flow_accumulation": {
+        "statistic": 1.2725108844397486,
+        "p_value": 0.20443863264838877,
+        "mean_real": 223.19747899159663,
+        "mean_synth": 9.552,
+        "cohens_d": 0.18835419083963126,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "plan_curvature": {
+        "statistic": 1.2754744978397161,
+        "p_value": 0.20309716945793896,
+        "mean_real": 0.019509531512605045,
+        "mean_synth": -0.0046629253,
+        "cohens_d": 0.10672467028684694,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "profile_curvature": {
+        "statistic": -0.32313331544471674,
+        "p_value": 0.7468200515356329,
+        "mean_real": -0.010147517226890754,
+        "mean_synth": -0.004342960600000002,
+        "cohens_d": -0.02826461499789705,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "rainfall": {
+        "statistic": 2.6816455996201936,
+        "p_value": 0.007690756415170609,
+        "mean_real": 50.18163562436975,
+        "mean_synth": 49.7980310497,
+        "cohens_d": 0.20690695041131432,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "slope": {
+        "statistic": -0.21672278359119035,
+        "p_value": 0.8285540392302668,
+        "mean_real": 5.297568401680671,
+        "mean_synth": 5.3919739466,
+        "cohens_d": -0.016358871537254356,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "spi": {
+        "statistic": 1.4349450765701848,
+        "p_value": 0.15262102847802006,
+        "mean_real": 328.73023010588236,
+        "mean_synth": 12.0967828185,
+        "cohens_d": 0.21239738864203753,
+        "practical_significance": "small",
+        "statistically_significant": "False"
+      },
+      "tpi": {
+        "statistic": -1.7748735628521946,
+        "p_value": 0.07680109553357765,
+        "mean_real": 2.5070209768907565,
+        "mean_synth": 4.1006874707000005,
+        "cohens_d": -0.1325485669465018,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "tri": {
+        "statistic": -1.3942836693245502,
+        "p_value": 0.1641735973342558,
+        "mean_real": 0.3116038109243698,
+        "mean_synth": 0.32415200730000004,
+        "cohens_d": -0.10912431719965353,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "twi": {
+        "statistic": 2.4140179024110693,
+        "p_value": 0.01631250545980179,
+        "mean_real": 7.803417276470589,
+        "mean_synth": 7.3687409849,
+        "cohens_d": 0.1850180897760527,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      }
+    },
+    "correlation": {
+      "mace": 0.09016683742716432,
+      "frobenius_norm": 1.7519339453938882,
+      "correlation_of_correlations": 0.8831109628822663,
+      "max_error": 0.833281035692479,
+      "max_error_pair": [
+        "flow_accumulation",
+        "spi"
+      ]
+    },
+    "pca": {
+      "centroid_distance": 0.1865210877119312,
+      "covariance_distance": 2.220795990960003,
+      "explained_variance": [
+        0.3300075549957634,
+        0.17367097302381612
+      ]
+    },
+    "categorical": {
+      "land_use": {
+        "chi2_statistic": 8.085955768474062,
+        "chi2_p_value": 0.08847978894167229,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.07268137179967415,
+        "total_variation_distance": 0.09700840336134452,
+        "category_coverage": 1.0,
+        "n_categories_original": 5,
+        "n_categories_synthetic": 5,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.025210084033613446,
+          "16": 0.12605042016806722,
+          "32": 0.1134453781512605,
+          "55": 0.3277310924369748,
+          "68": 0.40756302521008403
+        },
+        "synthetic_distribution": {
+          "1": 0.036,
+          "16": 0.131,
+          "32": 0.097,
+          "55": 0.409,
+          "68": 0.327
+        }
+      },
+      "soil": {
+        "chi2_statistic": 4.073798859189118,
+        "chi2_p_value": 0.043553220835334125,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.05122608858638243,
+        "total_variation_distance": 0.034831932773109246,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "2": 0.07983193277310924,
+          "3": 0.9201680672268907
+        },
+        "synthetic_distribution": {
+          "2": 0.045,
+          "3": 0.955
+        }
+      },
+      "lithology": {
+        "chi2_statistic": 0.48112020062956107,
+        "chi2_p_value": 0.9230192066111005,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.017791679138309868,
+        "total_variation_distance": 0.023277310924369736,
+        "category_coverage": 1.0,
+        "n_categories_original": 4,
+        "n_categories_synthetic": 4,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.012605042016806723,
+          "2": 0.08403361344537816,
+          "3": 0.6092436974789915,
+          "5": 0.29411764705882354
+        },
+        "synthetic_distribution": {
+          "1": 0.014,
+          "2": 0.08,
+          "3": 0.59,
+          "5": 0.316
+        }
+      },
+      "f_nf": {
+        "chi2_statistic": 0.001970668044856525,
+        "chi2_p_value": 0.9645917734172517,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.002971067492379472,
+        "total_variation_distance": 0.004201680672268893,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "0": 0.5042016806722689,
+          "1": 0.4957983193277311
+        },
+        "synthetic_distribution": {
+          "0": 0.5,
+          "1": 0.5
+        }
+      }
+    }
+  },
+  "TVAE_5000": {
+    "dataset_info": {
+      "name": "TVAE_5000",
+      "n_rows": 5000,
+      "n_features": 16
+    },
+    "statistical_similarity": {
+      "ks_results": {
+        "aspect": {
+          "statistic": 0.1982436974789916,
+          "p_value": 2.679385420964535e-08,
+          "significant": "True"
+        },
+        "dem": {
+          "statistic": 0.08132773109243698,
+          "p_value": 0.09345446196193205,
+          "significant": "False"
+        },
+        "distance_from_river": {
+          "statistic": 0.15791260504201682,
+          "p_value": 2.0384038578192334e-05,
+          "significant": "True"
+        },
+        "flow_accumulation": {
+          "statistic": 0.2078638655462185,
+          "p_value": 4.352879802440172e-09,
+          "significant": "True"
+        },
+        "plan_curvature": {
+          "statistic": 0.09637310924369748,
+          "p_value": 0.02738057103462406,
+          "significant": "True"
+        },
+        "profile_curvature": {
+          "statistic": 0.076909243697479,
+          "p_value": 0.12886790630573927,
+          "significant": "False"
+        },
+        "rainfall": {
+          "statistic": 0.1087327731092437,
+          "p_value": 0.00854083481911457,
+          "significant": "True"
+        },
+        "slope": {
+          "statistic": 0.08350084033613446,
+          "p_value": 0.07928545108268932,
+          "significant": "False"
+        },
+        "spi": {
+          "statistic": 0.16246050420168068,
+          "p_value": 1.0421510990706092e-05,
+          "significant": "True"
+        },
+        "tpi": {
+          "statistic": 0.0656470588235294,
+          "p_value": 0.269097992598606,
+          "significant": "False"
+        },
+        "tri": {
+          "statistic": 0.08229747899159665,
+          "p_value": 0.08689873696764595,
+          "significant": "False"
+        },
+        "twi": {
+          "statistic": 0.09686386554621848,
+          "p_value": 0.026189507934193865,
+          "significant": "True"
+        }
+      },
+      "wasserstein_results": {
+        "aspect": 31.61368146683429,
+        "dem": 8.434873333826726,
+        "distance_from_river": 172.7621886128553,
+        "flow_accumulation": 218.99990756302452,
+        "plan_curvature": 0.05022430815781513,
+        "profile_curvature": 0.041498478274621824,
+        "rainfall": 0.3094010332870586,
+        "slope": 0.4665594816705881,
+        "spi": 321.0609806561482,
+        "tpi": 1.458679588218823,
+        "tri": 0.0171545307230252,
+        "twi": 0.3982284416105882
+      },
+      "summary": {
+        "n_significant": 7,
+        "mean_ks_stat": 0.11817773109243697,
+        "mean_w_dist": 62.96778145788597
+      }
+    },
+    "ttest": {
+      "aspect": {
+        "statistic": -4.110651295518822,
+        "p_value": 5.316490279384059e-05,
+        "mean_real": 189.6021734352941,
+        "mean_synth": 219.55411909528002,
+        "cohens_d": -0.2961821321393535,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "dem": {
+        "statistic": -0.6033234187777062,
+        "p_value": 0.5468249440535307,
+        "mean_real": 82.9117540235294,
+        "mean_synth": 86.2902142917,
+        "cohens_d": -0.042340913981919075,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "distance_from_river": {
+        "statistic": 3.937054091788143,
+        "p_value": 0.00010676567880334598,
+        "mean_real": 894.6984914554621,
+        "mean_synth": 724.6296647135799,
+        "cohens_d": 0.31429916339997976,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "flow_accumulation": {
+        "statistic": 1.2687641759162223,
+        "p_value": 0.20576989536957535,
+        "mean_real": 223.19747899159663,
+        "mean_synth": 10.1818,
+        "cohens_d": 0.3863939110620861,
+        "practical_significance": "small",
+        "statistically_significant": "False"
+      },
+      "plan_curvature": {
+        "statistic": 1.4242662829114017,
+        "p_value": 0.1556118264428003,
+        "mean_real": 0.019509531512605045,
+        "mean_synth": -0.006066828099999999,
+        "cohens_d": 0.11832383332697594,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "profile_curvature": {
+        "statistic": -1.3506937311375138,
+        "p_value": 0.17801528321083993,
+        "mean_real": -0.010147517226890754,
+        "mean_synth": 0.01302780868,
+        "cohens_d": -0.11602351618231303,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "rainfall": {
+        "statistic": 2.0843562920242236,
+        "p_value": 0.038120105717605116,
+        "mean_real": 50.18163562436975,
+        "mean_synth": 49.90317053528,
+        "cohens_d": 0.15157308899044658,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      },
+      "slope": {
+        "statistic": 0.40643603203743117,
+        "p_value": 0.6847621466572997,
+        "mean_real": 5.297568401680671,
+        "mean_synth": 5.13320022224,
+        "cohens_d": 0.029579128689972936,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "spi": {
+        "statistic": 1.4349872660394243,
+        "p_value": 0.15260903665372932,
+        "mean_real": 328.73023010588236,
+        "mean_synth": 12.088668546740001,
+        "cohens_d": 0.4370640595886958,
+        "practical_significance": "small",
+        "statistically_significant": "False"
+      },
+      "tpi": {
+        "statistic": -1.518256760281794,
+        "p_value": 0.13018140392387928,
+        "mean_real": 2.5070209768907565,
+        "mean_synth": 3.76974729636,
+        "cohens_d": -0.1086487923368034,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "tri": {
+        "statistic": -1.4435642266223172,
+        "p_value": 0.15009185774094363,
+        "mean_real": 0.3116038109243698,
+        "mean_synth": 0.3237654756800001,
+        "cohens_d": -0.10859580122008869,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "twi": {
+        "statistic": 2.368333373076688,
+        "p_value": 0.018611524586942676,
+        "mean_real": 7.803417276470589,
+        "mean_synth": 7.40572767778,
+        "cohens_d": 0.17101772528626155,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      }
+    },
+    "correlation": {
+      "mace": 0.09122291263701492,
+      "frobenius_norm": 1.692607389328057,
+      "correlation_of_correlations": 0.8916978582675267,
+      "max_error": 0.7868408192143794,
+      "max_error_pair": [
+        "flow_accumulation",
+        "spi"
+      ]
+    },
+    "pca": {
+      "centroid_distance": 0.12603886288543,
+      "covariance_distance": 2.242182799854965,
+      "explained_variance": [
+        0.3300075549957634,
+        0.17367097302381612
+      ]
+    },
+    "categorical": {
+      "land_use": {
+        "chi2_statistic": 9.840982424224924,
+        "chi2_p_value": 0.0431932177908309,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.07455347333714925,
+        "total_variation_distance": 0.09705882352941177,
+        "category_coverage": 1.0,
+        "n_categories_original": 5,
+        "n_categories_synthetic": 5,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.025210084033613446,
+          "16": 0.12605042016806722,
+          "32": 0.1134453781512605,
+          "55": 0.3277310924369748,
+          "68": 0.40756302521008403
+        },
+        "synthetic_distribution": {
+          "1": 0.0406,
+          "16": 0.1238,
+          "32": 0.0918,
+          "55": 0.4094,
+          "68": 0.3344
+        }
+      },
+      "soil": {
+        "chi2_statistic": 2.8487827179227763,
+        "chi2_p_value": 0.09144314975398031,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.03916403793347154,
+        "total_variation_distance": 0.027431932773109263,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "2": 0.07983193277310924,
+          "3": 0.9201680672268907
+        },
+        "synthetic_distribution": {
+          "2": 0.0524,
+          "3": 0.9476
+        }
+      },
+      "lithology": {
+        "chi2_statistic": 1.1043263926239366,
+        "chi2_p_value": 0.7760297792045169,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.02452460779535037,
+        "total_variation_distance": 0.025877310924369755,
+        "category_coverage": 1.0,
+        "n_categories_original": 4,
+        "n_categories_synthetic": 4,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.012605042016806723,
+          "2": 0.08403361344537816,
+          "3": 0.6092436974789915,
+          "5": 0.29411764705882354
+        },
+        "synthetic_distribution": {
+          "1": 0.0158,
+          "2": 0.0712,
+          "3": 0.5962,
+          "5": 0.3168
+        }
+      },
+      "f_nf": {
+        "chi2_statistic": 0.003638030954472596,
+        "chi2_p_value": 0.9519038857150952,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.002971067492379472,
+        "total_variation_distance": 0.004201680672268893,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "0": 0.5042016806722689,
+          "1": 0.4957983193277311
+        },
+        "synthetic_distribution": {
+          "0": 0.5,
+          "1": 0.5
+        }
+      }
+    }
+  },
+  "TVAE_10000": {
+    "dataset_info": {
+      "name": "TVAE_10000",
+      "n_rows": 10000,
+      "n_features": 16
+    },
+    "statistical_similarity": {
+      "ks_results": {
+        "aspect": {
+          "statistic": 0.1936436974789916,
+          "p_value": 4.133211596455468e-08,
+          "significant": "True"
+        },
+        "dem": {
+          "statistic": 0.08072773109243697,
+          "p_value": 0.09131583376128584,
+          "significant": "False"
+        },
+        "distance_from_river": {
+          "statistic": 0.1582126050420168,
+          "p_value": 1.5020934728556641e-05,
+          "significant": "True"
+        },
+        "flow_accumulation": {
+          "statistic": 0.1897638655462185,
+          "p_value": 8.359108177194005e-08,
+          "significant": "True"
+        },
+        "plan_curvature": {
+          "statistic": 0.10857310924369748,
+          "p_value": 0.007668671540981635,
+          "significant": "True"
+        },
+        "profile_curvature": {
+          "statistic": 0.05920924369747899,
+          "p_value": 0.374014944654081,
+          "significant": "False"
+        },
+        "rainfall": {
+          "statistic": 0.09812605042016807,
+          "p_value": 0.021158021190019485,
+          "significant": "True"
+        },
+        "slope": {
+          "statistic": 0.07880252100840336,
+          "p_value": 0.105500420609725,
+          "significant": "False"
+        },
+        "spi": {
+          "statistic": 0.17406050420168068,
+          "p_value": 1.2489402525450322e-06,
+          "significant": "True"
+        },
+        "tpi": {
+          "statistic": 0.06114705882352941,
+          "p_value": 0.3357304297542964,
+          "significant": "False"
+        },
+        "tri": {
+          "statistic": 0.09169579831932773,
+          "p_value": 0.03754938153201252,
+          "significant": "True"
+        },
+        "twi": {
+          "statistic": 0.09366386554621849,
+          "p_value": 0.03163238740242693,
+          "significant": "True"
+        }
+      },
+      "wasserstein_results": {
+        "aspect": 31.335964191635377,
+        "dem": 8.70211644795563,
+        "distance_from_river": 165.72351219100233,
+        "flow_accumulation": 218.79515798319258,
+        "plan_curvature": 0.054624526760252104,
+        "profile_curvature": 0.03531152491336132,
+        "rainfall": 0.30134783309520974,
+        "slope": 0.4278085940355463,
+        "spi": 319.97727238648895,
+        "tpi": 1.496618839172605,
+        "tri": 0.019371800543865544,
+        "twi": 0.40198494000352925
+      },
+      "summary": {
+        "n_significant": 8,
+        "mean_ks_stat": 0.11563550420168067,
+        "mean_w_dist": 62.272590938233265
+      }
+    },
+    "ttest": {
+      "aspect": {
+        "statistic": -4.076400998341951,
+        "p_value": 6.173738027176383e-05,
+        "mean_real": 189.6021734352941,
+        "mean_synth": 219.02091754063,
+        "cohens_d": -0.29093588541539156,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "dem": {
+        "statistic": -0.6049625938216846,
+        "p_value": 0.5457593909468614,
+        "mean_real": 82.9117540235294,
+        "mean_synth": 86.26453070798,
+        "cohens_d": -0.042380128862977345,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "distance_from_river": {
+        "statistic": 3.788605791158562,
+        "p_value": 0.00019077596295841067,
+        "mean_real": 894.6984914554621,
+        "mean_synth": 732.2960396572399,
+        "cohens_d": 0.30104986377863663,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "flow_accumulation": {
+        "statistic": 1.2713593723091507,
+        "p_value": 0.2048471245797222,
+        "mean_real": 223.19747899159663,
+        "mean_synth": 9.7462,
+        "cohens_d": 0.5411615045490742,
+        "practical_significance": "medium",
+        "statistically_significant": "False"
+      },
+      "plan_curvature": {
+        "statistic": 1.9120837032624094,
+        "p_value": 0.05703732781857703,
+        "mean_real": 0.019509531512605045,
+        "mean_synth": -0.01458191093,
+        "cohens_d": 0.15956340892555135,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "profile_curvature": {
+        "statistic": -0.8528966158220586,
+        "p_value": 0.39455466010544027,
+        "mean_real": -0.010147517226890754,
+        "mean_synth": 0.00439223259,
+        "cohens_d": -0.07274333564998543,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "rainfall": {
+        "statistic": 1.9622997296450542,
+        "p_value": 0.050854299414063345,
+        "mean_real": 50.18163562436975,
+        "mean_synth": 49.92199014891,
+        "cohens_d": 0.1430192955772861,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "slope": {
+        "statistic": 0.19370594657860646,
+        "p_value": 0.8465655507108085,
+        "mean_real": 5.297568401680671,
+        "mean_synth": 5.219936731249999,
+        "cohens_d": 0.013737618830651244,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "spi": {
+        "statistic": 1.4270785016665493,
+        "p_value": 0.15487331295289883,
+        "mean_real": 328.73023010588236,
+        "mean_synth": 13.82811189109,
+        "cohens_d": 0.5886379301277264,
+        "practical_significance": "medium",
+        "statistically_significant": "False"
+      },
+      "tpi": {
+        "statistic": -1.6187502028826835,
+        "p_value": 0.10677565891208941,
+        "mean_real": 2.5070209768907565,
+        "mean_synth": 3.84110243108,
+        "cohens_d": -0.1114619661432269,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "tri": {
+        "statistic": -1.7246868561665516,
+        "p_value": 0.08584326959525196,
+        "mean_real": 0.3116038109243698,
+        "mean_synth": 0.32600274320000006,
+        "cohens_d": -0.1310345582359323,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "twi": {
+        "statistic": 2.4147895103729327,
+        "p_value": 0.016472912205591266,
+        "mean_real": 7.803417276470589,
+        "mean_synth": 7.4017422377,
+        "cohens_d": 0.17193125842535473,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      }
+    },
+    "correlation": {
+      "mace": 0.08870117637541061,
+      "frobenius_norm": 1.7662510623951853,
+      "correlation_of_correlations": 0.8800679536825928,
+      "max_error": 0.84743873842471,
+      "max_error_pair": [
+        "flow_accumulation",
+        "spi"
+      ]
+    },
+    "pca": {
+      "centroid_distance": 0.13639082606674563,
+      "covariance_distance": 2.2294732931940464,
+      "explained_variance": [
+        0.3300075549957634,
+        0.17367097302381612
+      ]
+    },
+    "categorical": {
+      "land_use": {
+        "chi2_statistic": 10.855177225695988,
+        "chi2_p_value": 0.028240754020622687,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.0767268052815759,
+        "total_variation_distance": 0.10210840336134452,
+        "category_coverage": 1.0,
+        "n_categories_original": 5,
+        "n_categories_synthetic": 5,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.025210084033613446,
+          "16": 0.12605042016806722,
+          "32": 0.1134453781512605,
+          "55": 0.3277310924369748,
+          "68": 0.40756302521008403
+        },
+        "synthetic_distribution": {
+          "1": 0.0394,
+          "16": 0.1319,
+          "32": 0.0922,
+          "55": 0.4098,
+          "68": 0.3267
+        }
+      },
+      "soil": {
+        "chi2_statistic": 5.060361012190668,
+        "chi2_p_value": 0.02447913829831976,
+        "chi2_significant": "True",
+        "jensen_shannon_divergence": 0.04888084104012167,
+        "total_variation_distance": 0.03343193277310927,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "2": 0.07983193277310924,
+          "3": 0.9201680672268907
+        },
+        "synthetic_distribution": {
+          "2": 0.0464,
+          "3": 0.9536
+        }
+      },
+      "lithology": {
+        "chi2_statistic": 0.9877378545996317,
+        "chi2_p_value": 0.8042189997011159,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.023078926312301153,
+        "total_variation_distance": 0.026077310924369723,
+        "category_coverage": 1.0,
+        "n_categories_original": 4,
+        "n_categories_synthetic": 4,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.012605042016806723,
+          "2": 0.08403361344537816,
+          "3": 0.6092436974789915,
+          "5": 0.29411764705882354
+        },
+        "synthetic_distribution": {
+          "1": 0.0156,
+          "2": 0.0732,
+          "3": 0.594,
+          "5": 0.3172
+        }
+      },
+      "f_nf": {
+        "chi2_statistic": 0.0039109795126698235,
+        "chi2_p_value": 0.950134541155516,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.002971067492379472,
+        "total_variation_distance": 0.004201680672268893,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "0": 0.5042016806722689,
+          "1": 0.4957983193277311
+        },
+        "synthetic_distribution": {
+          "0": 0.5,
+          "1": 0.5
+        }
+      }
+    }
+  },
+  "GaussianCopula_1000": {
+    "dataset_info": {
+      "name": "GaussianCopula_1000",
+      "n_rows": 1000,
+      "n_features": 16
+    },
+    "statistical_similarity": {
+      "ks_results": {
+        "aspect": {
+          "statistic": 0.06677310924369748,
+          "p_value": 0.340247376847619,
+          "significant": "False"
+        },
+        "dem": {
+          "statistic": 0.08452100840336134,
+          "p_value": 0.12002090837253783,
+          "significant": "False"
+        },
+        "distance_from_river": {
+          "statistic": 0.14796638655462185,
+          "p_value": 0.00038459508867600133,
+          "significant": "True"
+        },
+        "flow_accumulation": {
+          "statistic": 0.346327731092437,
+          "p_value": 4.9435385372824555e-21,
+          "significant": "True"
+        },
+        "plan_curvature": {
+          "statistic": 0.05269747899159664,
+          "p_value": 0.6368960774242477,
+          "significant": "False"
+        },
+        "profile_curvature": {
+          "statistic": 0.08510924369747899,
+          "p_value": 0.11545757216062523,
+          "significant": "False"
+        },
+        "rainfall": {
+          "statistic": 0.04910084033613445,
+          "p_value": 0.7206424909225659,
+          "significant": "False"
+        },
+        "slope": {
+          "statistic": 0.08794957983193277,
+          "p_value": 0.09531660463846152,
+          "significant": "False"
+        },
+        "spi": {
+          "statistic": 0.36136974789915965,
+          "p_value": 6.699947701134917e-23,
+          "significant": "True"
+        },
+        "tpi": {
+          "statistic": 0.09747899159663866,
+          "p_value": 0.04789666448140487,
+          "significant": "True"
+        },
+        "tri": {
+          "statistic": 0.06274789915966386,
+          "p_value": 0.4154085298338203,
+          "significant": "False"
+        },
+        "twi": {
+          "statistic": 0.12850420168067228,
+          "p_value": 0.003120274390204587,
+          "significant": "True"
+        }
+      },
+      "wasserstein_results": {
+        "aspect": 7.020527877783192,
+        "dem": 10.695170225663027,
+        "distance_from_river": 90.4960561127933,
+        "flow_accumulation": 609.4950420168069,
+        "plan_curvature": 0.021732096436974786,
+        "profile_curvature": 0.02919377864117647,
+        "rainfall": 0.12055679970840358,
+        "slope": 0.7350363552092437,
+        "spi": 301.2337786391141,
+        "tpi": 1.4089336165798316,
+        "tri": 0.012346064442857144,
+        "twi": 0.30994220684537827
+      },
+      "summary": {
+        "n_significant": 5,
+        "mean_ks_stat": 0.13087885154061626,
+        "mean_w_dist": 85.13152631583537
+      }
+    },
+    "ttest": {
+      "aspect": {
+        "statistic": -0.41928377770804637,
+        "p_value": 0.6752541491199155,
+        "mean_real": 189.6021734352941,
+        "mean_synth": 192.95686472339997,
+        "cohens_d": -0.02965364732363444,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "dem": {
+        "statistic": 0.809436826201381,
+        "p_value": 0.41880610873702195,
+        "mean_real": 82.9117540235294,
+        "mean_synth": 77.98400292269999,
+        "cohens_d": 0.05886656735234333,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "distance_from_river": {
+        "statistic": -0.41848456651963567,
+        "p_value": 0.6758261165172672,
+        "mean_real": 894.6984914554621,
+        "mean_synth": 914.891062161,
+        "cohens_d": -0.02848754793864886,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "flow_accumulation": {
+        "statistic": -2.739432534530602,
+        "p_value": 0.006449996005683504,
+        "mean_real": 223.19747899159663,
+        "mean_synth": 740.51,
+        "cohens_d": -0.19112508534047412,
+        "practical_significance": "negligible",
+        "statistically_significant": "True"
+      },
+      "plan_curvature": {
+        "statistic": -0.3214345914498487,
+        "p_value": 0.7480721784012708,
+        "mean_real": 0.019509531512605045,
+        "mean_synth": 0.0258074272,
+        "cohens_d": -0.02358912472061876,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "profile_curvature": {
+        "statistic": 0.711138824628175,
+        "p_value": 0.4774743048617808,
+        "mean_real": -0.010147517226890754,
+        "mean_synth": -0.023441625100000002,
+        "cohens_d": 0.05262113816650128,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "rainfall": {
+        "statistic": -0.14300171145529483,
+        "p_value": 0.8863679778944396,
+        "mean_real": 50.18163562436975,
+        "mean_synth": 50.2025760585,
+        "cohens_d": -0.010181957655834474,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "slope": {
+        "statistic": -0.9562753421309401,
+        "p_value": 0.339544319539973,
+        "mean_real": 5.297568401680671,
+        "mean_synth": 5.7258610103,
+        "cohens_d": -0.06603541608404655,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "spi": {
+        "statistic": 0.88984088811002,
+        "p_value": 0.37444378181810645,
+        "mean_real": 328.73023010588236,
+        "mean_synth": 131.8367011933,
+        "cohens_d": 0.12604808742931198,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "tpi": {
+        "statistic": -0.380466642552732,
+        "p_value": 0.7038386998554989,
+        "mean_real": 2.5070209768907565,
+        "mean_synth": 2.8466086478,
+        "cohens_d": -0.029032139356198944,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "tri": {
+        "statistic": -1.2014039524072933,
+        "p_value": 0.23037182390662808,
+        "mean_real": 0.3116038109243698,
+        "mean_synth": 0.3227284847,
+        "cohens_d": -0.0851732049169494,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "twi": {
+        "statistic": 1.3819626046394453,
+        "p_value": 0.167824366495943,
+        "mean_real": 7.803417276470589,
+        "mean_synth": 7.548601938599999,
+        "cohens_d": 0.09776748479206197,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      }
+    },
+    "correlation": {
+      "mace": 0.05818456366430211,
+      "frobenius_norm": 0.930119647691264,
+      "correlation_of_correlations": 0.96793547387384,
+      "max_error": 0.22965075996724904,
+      "max_error_pair": [
+        "flow_accumulation",
+        "spi"
+      ]
+    },
+    "pca": {
+      "centroid_distance": 0.10674199388910825,
+      "covariance_distance": 1.178171553235052,
+      "explained_variance": [
+        0.3300075549957634,
+        0.17367097302381612
+      ]
+    },
+    "categorical": {
+      "land_use": {
+        "chi2_statistic": 0.1368624047496171,
+        "chi2_p_value": 0.9977627106919321,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.009445579117506516,
+        "total_variation_distance": 0.008781512605042,
+        "category_coverage": 1.0,
+        "n_categories_original": 5,
+        "n_categories_synthetic": 5,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.025210084033613446,
+          "16": 0.12605042016806722,
+          "32": 0.1134453781512605,
+          "55": 0.3277310924369748,
+          "68": 0.40756302521008403
+        },
+        "synthetic_distribution": {
+          "1": 0.027,
+          "16": 0.12,
+          "32": 0.119,
+          "55": 0.325,
+          "68": 0.409
+        }
+      },
+      "soil": {
+        "chi2_statistic": 0.8379045669692738,
+        "chi2_p_value": 0.3599967541715955,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.026060054709350404,
+        "total_variation_distance": 0.01883193277310924,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "2": 0.07983193277310924,
+          "3": 0.9201680672268907
+        },
+        "synthetic_distribution": {
+          "2": 0.061,
+          "3": 0.939
+        }
+      },
+      "lithology": {
+        "chi2_statistic": 0.8137256942795661,
+        "chi2_p_value": 0.8461812900552887,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.02357608163264282,
+        "total_variation_distance": 0.026243697478991575,
+        "category_coverage": 1.0,
+        "n_categories_original": 4,
+        "n_categories_synthetic": 4,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.012605042016806723,
+          "2": 0.08403361344537816,
+          "3": 0.6092436974789915,
+          "5": 0.29411764705882354
+        },
+        "synthetic_distribution": {
+          "1": 0.018,
+          "2": 0.093,
+          "3": 0.583,
+          "5": 0.306
+        }
+      },
+      "f_nf": {
+        "chi2_statistic": 0.001970668044856525,
+        "chi2_p_value": 0.9645917734172517,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.002971067492379472,
+        "total_variation_distance": 0.004201680672268893,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "0": 0.5042016806722689,
+          "1": 0.4957983193277311
+        },
+        "synthetic_distribution": {
+          "0": 0.5,
+          "1": 0.5
+        }
+      }
+    }
+  },
+  "GaussianCopula_5000": {
+    "dataset_info": {
+      "name": "GaussianCopula_5000",
+      "n_rows": 5000,
+      "n_features": 16
+    },
+    "statistical_similarity": {
+      "ks_results": {
+        "aspect": {
+          "statistic": 0.06357310924369748,
+          "p_value": 0.30383148352963374,
+          "significant": "False"
+        },
+        "dem": {
+          "statistic": 0.09151428571428571,
+          "p_value": 0.04162250622526753,
+          "significant": "True"
+        },
+        "distance_from_river": {
+          "statistic": 0.15956638655462185,
+          "p_value": 1.6100525682921223e-05,
+          "significant": "True"
+        },
+        "flow_accumulation": {
+          "statistic": 0.386527731092437,
+          "p_value": 5.038514637100886e-31,
+          "significant": "True"
+        },
+        "plan_curvature": {
+          "statistic": 0.050697478991596635,
+          "p_value": 0.5847646673271241,
+          "significant": "False"
+        },
+        "profile_curvature": {
+          "statistic": 0.059114285714285716,
+          "p_value": 0.38949449983384393,
+          "significant": "False"
+        },
+        "rainfall": {
+          "statistic": 0.029974789915966388,
+          "p_value": 0.982920786059493,
+          "significant": "False"
+        },
+        "slope": {
+          "statistic": 0.08803529411764706,
+          "p_value": 0.05545811601737474,
+          "significant": "False"
+        },
+        "spi": {
+          "statistic": 0.3681697478991597,
+          "p_value": 4.288967803987645e-28,
+          "significant": "True"
+        },
+        "tpi": {
+          "statistic": 0.08750420168067227,
+          "p_value": 0.05788561940083091,
+          "significant": "False"
+        },
+        "tri": {
+          "statistic": 0.03436638655462185,
+          "p_value": 0.9422217437156921,
+          "significant": "False"
+        },
+        "twi": {
+          "statistic": 0.08750420168067227,
+          "p_value": 0.05788561940083091,
+          "significant": "False"
+        }
+      },
+      "wasserstein_results": {
+        "aspect": 6.851358298046048,
+        "dem": 10.352167360807393,
+        "distance_from_river": 83.24791780337829,
+        "flow_accumulation": 832.3704252100841,
+        "plan_curvature": 0.019214424569411765,
+        "profile_curvature": 0.02781720728991596,
+        "rainfall": 0.08669213918420175,
+        "slope": 0.4535482363715967,
+        "spi": 315.7267929580677,
+        "tpi": 1.4386404796810077,
+        "tri": 0.008058363456638653,
+        "twi": 0.23220751585344537
+      },
+      "summary": {
+        "n_significant": 4,
+        "mean_ks_stat": 0.1255456582633053,
+        "mean_w_dist": 104.23456999973247
+      }
+    },
+    "ttest": {
+      "aspect": {
+        "statistic": -0.34121341357845864,
+        "p_value": 0.7332164755302252,
+        "mean_real": 189.6021734352941,
+        "mean_synth": 192.10229707495998,
+        "cohens_d": -0.021870324203697705,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "dem": {
+        "statistic": 1.053947463069112,
+        "p_value": 0.2928952189049293,
+        "mean_real": 82.9117540235294,
+        "mean_synth": 77.0094521916,
+        "cohens_d": 0.07383615721985264,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "distance_from_river": {
+        "statistic": 0.2413226546846722,
+        "p_value": 0.8094921684852068,
+        "mean_real": 894.6984914554621,
+        "mean_synth": 884.1513099865001,
+        "cohens_d": 0.014858910933879588,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "flow_accumulation": {
+        "statistic": -4.231782874660109,
+        "p_value": 3.169773455695196e-05,
+        "mean_real": 223.19747899159663,
+        "mean_synth": 959.1822,
+        "cohens_d": -0.23116436291941658,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "plan_curvature": {
+        "statistic": 0.2657871597890256,
+        "p_value": 0.7906140772543938,
+        "mean_real": 0.019509531512605045,
+        "mean_synth": 0.01469575904,
+        "cohens_d": 0.01779137872939726,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "profile_curvature": {
+        "statistic": -0.17483438751709365,
+        "p_value": 0.8613459460521325,
+        "mean_real": -0.010147517226890754,
+        "mean_synth": -0.007118428780000001,
+        "cohens_d": -0.01166310362181315,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "rainfall": {
+        "statistic": 0.06677238901090556,
+        "p_value": 0.9468141945520865,
+        "mean_real": 50.18163562436975,
+        "mean_synth": 50.17267715748,
+        "cohens_d": 0.004424587999901482,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "slope": {
+        "statistic": -0.34317452591465364,
+        "p_value": 0.7317434133514922,
+        "mean_real": 5.297568401680671,
+        "mean_synth": 5.43706257826,
+        "cohens_d": -0.02236980065069299,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "spi": {
+        "statistic": 0.7808957880295208,
+        "p_value": 0.43564092345785643,
+        "mean_real": 328.73023010588236,
+        "mean_synth": 156.29965365312,
+        "cohens_d": 0.18728927878326163,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "tpi": {
+        "statistic": 0.094954847135929,
+        "p_value": 0.924423855958638,
+        "mean_real": 2.5070209768907565,
+        "mean_synth": 2.4277829984799997,
+        "cohens_d": 0.006319243855097325,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "tri": {
+        "statistic": 0.028979301502715014,
+        "p_value": 0.976903324027975,
+        "mean_real": 0.3116038109243698,
+        "mean_synth": 0.3113583161,
+        "cohens_d": 0.0019226628020173706,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "twi": {
+        "statistic": 0.3615726772248322,
+        "p_value": 0.7179617467881088,
+        "mean_real": 7.803417276470589,
+        "mean_synth": 7.7422975986400004,
+        "cohens_d": 0.022766437430065505,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      }
+    },
+    "correlation": {
+      "mace": 0.05770916717953393,
+      "frobenius_norm": 0.9578097505327038,
+      "correlation_of_correlations": 0.9664558209058093,
+      "max_error": 0.32303934340729645,
+      "max_error_pair": [
+        "flow_accumulation",
+        "spi"
+      ]
+    },
+    "pca": {
+      "centroid_distance": 0.15073206439623343,
+      "covariance_distance": 0.9699798602927241,
+      "explained_variance": [
+        0.3300075549957634,
+        0.17367097302381612
+      ]
+    },
+    "categorical": {
+      "land_use": {
+        "chi2_statistic": 3.4748014720561056,
+        "chi2_p_value": 0.4817201658250647,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.04161571076509254,
+        "total_variation_distance": 0.03646050420168068,
+        "category_coverage": 1.0,
+        "n_categories_original": 5,
+        "n_categories_synthetic": 5,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.025210084033613446,
+          "16": 0.12605042016806722,
+          "32": 0.1134453781512605,
+          "55": 0.3277310924369748,
+          "68": 0.40756302521008403
+        },
+        "synthetic_distribution": {
+          "1": 0.0218,
+          "16": 0.093,
+          "32": 0.116,
+          "55": 0.3614,
+          "68": 0.4078
+        }
+      },
+      "soil": {
+        "chi2_statistic": 0.4240506240128275,
+        "chi2_p_value": 0.5149227505705222,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.01768741771451061,
+        "total_variation_distance": 0.013031932773109281,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "2": 0.07983193277310924,
+          "3": 0.9201680672268907
+        },
+        "synthetic_distribution": {
+          "2": 0.0668,
+          "3": 0.9332
+        }
+      },
+      "lithology": {
+        "chi2_statistic": 1.5900246549197035,
+        "chi2_p_value": 0.6616537716280937,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.02982711124732258,
+        "total_variation_distance": 0.0366487394957983,
+        "category_coverage": 1.0,
+        "n_categories_original": 4,
+        "n_categories_synthetic": 4,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.012605042016806723,
+          "2": 0.08403361344537816,
+          "3": 0.6092436974789915,
+          "5": 0.29411764705882354
+        },
+        "synthetic_distribution": {
+          "1": 0.0096,
+          "2": 0.101,
+          "3": 0.5756,
+          "5": 0.3138
+        }
+      },
+      "f_nf": {
+        "chi2_statistic": 0.003638030954472596,
+        "chi2_p_value": 0.9519038857150952,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.002971067492379472,
+        "total_variation_distance": 0.004201680672268893,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "0": 0.5042016806722689,
+          "1": 0.4957983193277311
+        },
+        "synthetic_distribution": {
+          "0": 0.5,
+          "1": 0.5
+        }
+      }
+    }
+  },
+  "GaussianCopula_10000": {
+    "dataset_info": {
+      "name": "GaussianCopula_10000",
+      "n_rows": 10000,
+      "n_features": 16
+    },
+    "statistical_similarity": {
+      "ks_results": {
+        "aspect": {
+          "statistic": 0.06546134453781513,
+          "p_value": 0.26028121921991965,
+          "significant": "False"
+        },
+        "dem": {
+          "statistic": 0.08441428571428572,
+          "p_value": 0.06859827618879039,
+          "significant": "False"
+        },
+        "distance_from_river": {
+          "statistic": 0.14846638655462185,
+          "p_value": 6.14932708768219e-05,
+          "significant": "True"
+        },
+        "flow_accumulation": {
+          "statistic": 0.371027731092437,
+          "p_value": 3.307788978707713e-29,
+          "significant": "True"
+        },
+        "plan_curvature": {
+          "statistic": 0.06109579831932773,
+          "p_value": 0.3367192358498024,
+          "significant": "False"
+        },
+        "profile_curvature": {
+          "statistic": 0.07710924369747899,
+          "p_value": 0.11943206941290431,
+          "significant": "False"
+        },
+        "rainfall": {
+          "statistic": 0.032974789915966383,
+          "p_value": 0.9547013600710356,
+          "significant": "False"
+        },
+        "slope": {
+          "statistic": 0.08783529411764705,
+          "p_value": 0.05200288578999437,
+          "significant": "False"
+        },
+        "spi": {
+          "statistic": 0.3630697478991597,
+          "p_value": 6.07212602900666e-28,
+          "significant": "True"
+        },
+        "tpi": {
+          "statistic": 0.10316050420168067,
+          "p_value": 0.013141832946970352,
+          "significant": "True"
+        },
+        "tri": {
+          "statistic": 0.03915126050420168,
+          "p_value": 0.8539840137916248,
+          "significant": "False"
+        },
+        "twi": {
+          "statistic": 0.10982268907563025,
+          "p_value": 0.006745130448754448,
+          "significant": "True"
+        }
+      },
+      "wasserstein_results": {
+        "aspect": 6.8486953371245365,
+        "dem": 9.51043851899462,
+        "distance_from_river": 88.72184470999767,
+        "flow_accumulation": 721.8302067226894,
+        "plan_curvature": 0.019881977497310927,
+        "profile_curvature": 0.029246737608319334,
+        "rainfall": 0.09629833041050434,
+        "slope": 0.5739781112993277,
+        "spi": 311.6999016500577,
+        "tpi": 1.452281248574117,
+        "tri": 0.007831179453697476,
+        "twi": 0.277808411600084
+      },
+      "summary": {
+        "n_significant": 5,
+        "mean_ks_stat": 0.12863242296918767,
+        "mean_w_dist": 95.08903441127559
+      }
+    },
+    "ttest": {
+      "aspect": {
+        "statistic": -0.14999935747973953,
+        "p_value": 0.8808862753585468,
+        "mean_real": 189.6021734352941,
+        "mean_synth": 190.6880060248,
+        "cohens_d": -0.009400661960406554,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "dem": {
+        "statistic": 0.741341847240736,
+        "p_value": 0.45918779173572755,
+        "mean_real": 82.9117540235294,
+        "mean_synth": 78.79894691432,
+        "cohens_d": 0.04961156530715168,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "distance_from_river": {
+        "statistic": -0.22614053128038172,
+        "p_value": 0.8212764925876677,
+        "mean_real": 894.6984914554621,
+        "mean_synth": 904.45071206294,
+        "cohens_d": -0.01367974861714198,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "flow_accumulation": {
+        "statistic": -3.6135751244973684,
+        "p_value": 0.0003646133388661339,
+        "mean_real": 223.19747899159663,
+        "mean_synth": 839.0916,
+        "cohens_d": -0.21035116228716536,
+        "practical_significance": "small",
+        "statistically_significant": "True"
+      },
+      "plan_curvature": {
+        "statistic": -0.5152617995953764,
+        "p_value": 0.6068287000930732,
+        "mean_real": 0.019509531512605045,
+        "mean_synth": 0.028737088799999998,
+        "cohens_d": -0.03409869037188236,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "profile_curvature": {
+        "statistic": 0.4428308442054674,
+        "p_value": 0.6582738964744599,
+        "mean_real": -0.010147517226890754,
+        "mean_synth": -0.017732013090000002,
+        "cohens_d": 0.02939099284177412,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "rainfall": {
+        "statistic": -0.10764960906273924,
+        "p_value": 0.9143604808074892,
+        "mean_real": 50.18163562436975,
+        "mean_synth": 50.195914763210006,
+        "cohens_d": -0.007014449096021446,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "slope": {
+        "statistic": -0.7688599738110385,
+        "p_value": 0.4427041901180476,
+        "mean_real": 5.297568401680671,
+        "mean_synth": 5.6065258255399995,
+        "cohens_d": -0.04866547308639973,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "spi": {
+        "statistic": 0.8821147352135794,
+        "p_value": 0.3786076726471521,
+        "mean_real": 328.73023010588236,
+        "mean_synth": 134.03673868399997,
+        "cohens_d": 0.274707448953131,
+        "practical_significance": "small",
+        "statistically_significant": "False"
+      },
+      "tpi": {
+        "statistic": -0.5345632706202299,
+        "p_value": 0.59342999855501,
+        "mean_real": 2.5070209768907565,
+        "mean_synth": 2.9480763198599997,
+        "cohens_d": -0.035056442268853544,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "tri": {
+        "statistic": -0.21129573248239794,
+        "p_value": 0.8328296437251632,
+        "mean_real": 0.3116038109243698,
+        "mean_synth": 0.31337360621,
+        "cohens_d": -0.01377044763560793,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      },
+      "twi": {
+        "statistic": 1.4437439747571121,
+        "p_value": 0.15006889049830457,
+        "mean_real": 7.803417276470589,
+        "mean_synth": 7.56272395617,
+        "cohens_d": 0.09313749268991095,
+        "practical_significance": "negligible",
+        "statistically_significant": "False"
+      }
+    },
+    "correlation": {
+      "mace": 0.054828810114971135,
+      "frobenius_norm": 0.9065464375334182,
+      "correlation_of_correlations": 0.9701799717251406,
+      "max_error": 0.3075819030716417,
+      "max_error_pair": [
+        "flow_accumulation",
+        "spi"
+      ]
+    },
+    "pca": {
+      "centroid_distance": 0.09746151426115712,
+      "covariance_distance": 1.0949173550761995,
+      "explained_variance": [
+        0.3300075549957634,
+        0.17367097302381612
+      ]
+    },
+    "categorical": {
+      "land_use": {
+        "chi2_statistic": 1.1680841696674753,
+        "chi2_p_value": 0.8833248759727566,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.024407930417568523,
+        "total_variation_distance": 0.022460504201680692,
+        "category_coverage": 1.0,
+        "n_categories_original": 5,
+        "n_categories_synthetic": 5,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.025210084033613446,
+          "16": 0.12605042016806722,
+          "32": 0.1134453781512605,
+          "55": 0.3277310924369748,
+          "68": 0.40756302521008403
+        },
+        "synthetic_distribution": {
+          "1": 0.0211,
+          "16": 0.1077,
+          "32": 0.1236,
+          "55": 0.337,
+          "68": 0.4106
+        }
+      },
+      "soil": {
+        "chi2_statistic": 1.8544886991123586,
+        "chi2_p_value": 0.17326223332195917,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.032196636622658224,
+        "total_variation_distance": 0.02293193277310929,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "2": 0.07983193277310924,
+          "3": 0.9201680672268907
+        },
+        "synthetic_distribution": {
+          "2": 0.0569,
+          "3": 0.9431
+        }
+      },
+      "lithology": {
+        "chi2_statistic": 1.292751617744694,
+        "chi2_p_value": 0.7308549920784695,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.026542228806930527,
+        "total_variation_distance": 0.035548739495798294,
+        "category_coverage": 1.0,
+        "n_categories_original": 4,
+        "n_categories_synthetic": 4,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "1": 0.012605042016806723,
+          "2": 0.08403361344537816,
+          "3": 0.6092436974789915,
+          "5": 0.29411764705882354
+        },
+        "synthetic_distribution": {
+          "1": 0.0106,
+          "2": 0.0958,
+          "3": 0.5757,
+          "5": 0.3179
+        }
+      },
+      "f_nf": {
+        "chi2_statistic": 0.0039109795126698235,
+        "chi2_p_value": 0.950134541155516,
+        "chi2_significant": "False",
+        "jensen_shannon_divergence": 0.002971067492379472,
+        "total_variation_distance": 0.004201680672268893,
+        "category_coverage": 1.0,
+        "n_categories_original": 2,
+        "n_categories_synthetic": 2,
+        "missing_categories": [],
+        "extra_categories": [],
+        "original_distribution": {
+          "0": 0.5042016806722689,
+          "1": 0.4957983193277311
+        },
+        "synthetic_distribution": {
+          "0": 0.5,
+          "1": 0.5
+        }
+      }
+    }
+  }
+}
